@@ -1,0 +1,37 @@
+.rouge
+{
+    color:red;
+}
+h2{
+    color:blue;
+}
+body{
+    background-color:aquamarine;
+}
+h3{
+    flex: center;
+}
+.center
+{
+    display: contents;
+
+}
+
+.centrer{
+    margin:auto;
+}
+.carre
+{
+    width: 50;
+    height: 50;
+    text-align: left;
+}
+.test
+{
+    display: flex;
+    align-items: center;
+}
+input
+{
+    accent-color: red;
+}
