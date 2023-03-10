@@ -3,47 +3,82 @@ header
 	position: absolute;
 	left: 0%;
 	right: 0%;
+	font-family: "Roboto",-apple-system,BlinkMacSystemFont,system-ui,Segoe UI,Helvetica Neue,sans-serif;
 }
 #header_top
 {
-	
+	display: flex;
 	background-color:#E5E5E5;
-	transform: rotate(-0.33deg);
 	color: #2D4059;
+	justify-content: flex-start;
 	
 }
-#header_bottom
+
+nav
 {
+	display: flex;
 	background-color: #2D4059;
-	padding-top: 4%;
+	justify-content: space-around;
 }
+
+.search_bar
+{
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+}
+.link
+{
+	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: flex-end;
+  	align-items: center;
+  	list-style: none;
+  	margin: 0; 
+}
+
+.link a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+.button_search 
+{
+	margin-left: 25px;
+	margin-right: 30px;
+	color: white;
+	width: 128px;
+	border: none;
+	padding: 10px;
+	background: #EA5455;
+	border-radius: 7px;
+	
+}
+
 
 /*--------------------------------------------------------------------------------------------*/
 
-
+/*
 .site_name
 {
-	position: absolute;
-	left: 5.55%;
-	right: 82.55%;
-	top: 25.13%;
-	bottom: 65.69%;
-	transform: rotate(-0.33deg);
+	
 }
 
 .slogan
 {
-	position: absolute;
-	left: 47.98%;
-	right: 2.61%;
-	top: 2%;
-	bottom: 74.9%;
-	text-align: right;
+	
 }
-
+*/
 /*----------------------------------------------------------------------------------------------------*/
 
-.step_1
+/*.step_1
 {
 	position: absolute;
 	left: 60.56%;
@@ -73,7 +108,7 @@ header
 
 /*--------------------------------------------------------------------------------------------*/
 
-.shop
+/*.shop
 {
 	position: absolute;
 	left: 55.76%;
@@ -143,18 +178,4 @@ header
 	border-radius: 10px;
 
 }
-.button_search 
-{
-	position: absolute;
-	left: 43.5%;
-	right: 48.9%;
-	top: 68.31%;
-	bottom: 15.82%;
-	color: white;
-	width: 128px;
-	border: none;
-	padding: 10px;
-	background: #EA5455;
-	border-radius: 7px;
-	
-}
+*/
