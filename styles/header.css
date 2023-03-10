@@ -1,0 +1,160 @@
+header
+{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+}
+#header_top
+{
+	
+	background-color:#E5E5E5;
+	transform: rotate(-0.33deg);
+	color: #2D4059;
+	
+}
+#header_bottom
+{
+	background-color: #2D4059;
+	padding-top: 4%;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+.site_name
+{
+	position: absolute;
+	left: 5.55%;
+	right: 82.55%;
+	top: 25.13%;
+	bottom: 65.69%;
+	transform: rotate(-0.33deg);
+}
+
+.slogan
+{
+	position: absolute;
+	left: 47.98%;
+	right: 2.61%;
+	top: 2%;
+	bottom: 74.9%;
+	text-align: right;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+
+.step_1
+{
+	position: absolute;
+	left: 60.56%;
+	right: 27.36%;
+	top: 75.5%;
+	bottom: 61%;
+	
+}
+.step_2
+{
+	position: absolute;
+	left: 77.7%;
+	right: 15.34%;
+	top: 75.5%;
+	bottom: 61%;
+}
+
+.step_3
+{
+	position: absolute;
+	left: 85.08%;
+	right: 2.6%;
+	top: 75.5%;
+	bottom: 61%;
+	
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+.shop
+{
+	position: absolute;
+	left: 55.76%;
+	right: 40.13%;
+	top: 73.06%;
+	bottom: 19.7%;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+
+	color: #FFFFFF;
+
+	transform: rotate(-0.33deg);
+}
+
+.faq
+{
+	position: absolute;
+	left: 61.66%;
+	right: 29.65%;
+	top: 72.78%;
+	bottom: 19.97%;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+
+	color: #FFFFFF;
+
+	transform: rotate(-0.33deg);
+}
+
+.login
+{
+	position: absolute;
+	left: 69.42%;
+	right: 19.23%;
+	top: 72.56%;
+	bottom: 19.22%;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #FFFFFF;
+	
+}
+
+.cart
+{
+	position: absolute;
+	left: 81.42%;
+	right: 16.86%;
+	top: 68.97%;
+	bottom: 17.98%;
+	color:white;
+	
+}
+
+.header_bottomcenter input[type=text]
+{
+
+  	position: absolute;
+	left: 25.06%;
+	right: 57.14%;
+	top: 65.7%;
+	bottom: 15.46%;
+	border-radius: 10px;
+
+}
+.button_search 
+{
+	position: absolute;
+	left: 43.5%;
+	right: 48.9%;
+	top: 68.31%;
+	bottom: 15.82%;
+	color: white;
+	width: 128px;
+	border: none;
+	padding: 10px;
+	background: #EA5455;
+	border-radius: 7px;
+	
+}
