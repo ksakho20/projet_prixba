@@ -1,0 +1,88 @@
+footer
+{
+}
+
+#footer_top
+{
+	background-color: #2D4059;
+}
+
+#footer_center
+{
+	background-color:#E5E5E5;
+}
+
+#footer_bottom
+{
+	background-color: #2D4059;
+}
+
+#grid {
+  display: grid;
+  height: 100px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  color: white;
+  font-size: 18px;
+}
+
+#areaA 
+{
+  	background-color: #2D4059;
+}
+
+#areaB 
+{
+  	background-color: #2D4059;
+}
+#areaC
+{
+	background-color: #2D4059;
+}
+#areaD
+{
+	background-color: #2D4059;
+}
+
+#footer_center .right_side
+{
+	float: right;
+	text-align: right;
+	width: 100%;
+}
+#footer_center .left_side
+{
+	float: left;
+	text-align: left;
+	display: block;
+	width: 100%;
+}
+.left_side
+{
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+}
+
+.right_side
+{
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+
+}
+
+div
+{
+	display: block;
+}
+ ul li 
+ {
+ 	list-style: none;
+ 	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+ }
+ 
